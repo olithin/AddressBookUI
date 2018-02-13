@@ -2,27 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79ae3cd5-1870-4ce0-ba82-01d6c0900689" name="Default" comment="add new project c#">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/.idea/indexLayout.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/riderModule.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestBookSharp.sln" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/AppManager/ContactHelper.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/AppManager/HelperBase.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/AppManager/NavigationHelper.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Model/AccountData.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Model/ContactData.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Model/GroupData.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Properties/AssemblyInfo.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/TestProject1.csproj" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Tests/AddContactTest.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Tests/TestBase.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Tests/TestsGroupCreation.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/packages.config" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/TestsGroupCreation.cs" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Tests/ContactModificationTests.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Tests/ContactRemovalTests.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Tests/GroupModificationGroup.cs" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs" afterPath="$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/AppManager/ContactHelper.cs" afterPath="$PROJECT_DIR$/TestProject1/AppManager/ContactHelper.cs" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs" afterPath="$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/AppManager/HelperBase.cs" afterPath="$PROJECT_DIR$/TestProject1/AppManager/HelperBase.cs" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs" afterPath="$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/AppManager/NavigationHelper.cs" afterPath="$PROJECT_DIR$/TestProject1/AppManager/NavigationHelper.cs" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/TestProject1.csproj" afterPath="$PROJECT_DIR$/TestProject1/TestProject1.csproj" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/AddContactTest.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/AddContactTests.cs" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/TestBase.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/TestBase.cs" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/TestsGroupCreation.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/AddressBookWeb.dll" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/AddressBookWeb.dll" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/AddressBookWeb.pdb" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/AddressBookWeb.pdb" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/AddressBookWeb.dll" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/AddressBookWeb.dll" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/AddressBookWeb.pdb" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/AddressBookWeb.pdb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,57 +31,117 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestsGroupCreation.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestProject1/Tests/TestsGroupCreation.cs">
+      <file leaf-file-name="GroupCreationTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="-95">
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding>
-                <marker date="1518413354176" expanded="false" signature="6:139" ph="..." />
-                <marker date="1518413354176" expanded="true" signature="170:777" ph="{...}" />
-                <marker date="1518413354176" expanded="true" signature="237:775" ph="{...}" />
-                <marker date="1518413354176" expanded="true" signature="299:769" ph="{...}" />
+                <marker date="1518501584479" expanded="true" signature="53:599" ph="{...}" />
+                <marker date="1518501584479" expanded="true" signature="120:597" ph="{...}" />
+                <marker date="1518501584479" expanded="true" signature="181:360" ph="{...}" />
+                <marker date="1518501584479" expanded="true" signature="421:591" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupHelper.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GroupHelper.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1717">
+              <caret line="101" column="1" lean-forward="false" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+              <folding>
+                <marker date="1518501523422" expanded="true" signature="53:2632" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="97:2630" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="174:194" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="246:476" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="537:804" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="847:1030" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="1078:1179" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="1239:1451" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="1509:1659" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="1709:1813" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="1864:2005" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="2047:2151" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="2200:2312" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="2366:2470" ph="{...}" />
+                <marker date="1518501523422" expanded="true" signature="2522:2624" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginHelper.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <marker date="1518501548936" expanded="true" signature="53:732" ph="{...}" />
+                <marker date="1518501548936" expanded="true" signature="97:730" ph="{...}" />
+                <marker date="1518501548936" expanded="true" signature="175:195" ph="{...}" />
+                <marker date="1518501548936" expanded="true" signature="243:611" ph="{...}" />
+                <marker date="1518501548936" expanded="true" signature="641:724" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddContactTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestProject1/Tests/AddContactTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <marker date="1518501443162" expanded="false" signature="6:109" ph="..." />
+                <marker date="1518501443162" expanded="true" signature="140:750" ph="{...}" />
+                <marker date="1518501443162" expanded="true" signature="204:748" ph="{...}" />
+                <marker date="1518501443162" expanded="true" signature="262:481" ph="{...}" />
+                <marker date="1518501443162" expanded="true" signature="539:742" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactModificationTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestProject1/Tests/ContactModificationTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-              <folding />
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <marker date="1518502063241" expanded="true" signature="53:411" ph="{...}" />
+                <marker date="1518502063241" expanded="true" signature="126:409" ph="{...}" />
+                <marker date="1518502063241" expanded="true" signature="193:403" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupData.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestProject1/Model/GroupData.cs">
+      <file leaf-file-name="ContactRemovalTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestProject1/Tests/ContactRemovalTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="119">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <marker date="1518502099231" expanded="true" signature="53:230" ph="{...}" />
+                <marker date="1518502099231" expanded="true" signature="103:228" ph="{...}" />
+                <marker date="1518502099231" expanded="true" signature="166:222" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddContactTest.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestProject1/Tests/AddContactTest.cs">
+      <file leaf-file-name="GroupModificationGroup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestProject1/Tests/GroupModificationGroup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactHelper.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/ContactHelper.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-              <folding />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <marker date="1518502146064" expanded="true" signature="53:388" ph="{...}" />
+                <marker date="1518502146064" expanded="true" signature="125:386" ph="{...}" />
+                <marker date="1518502146064" expanded="true" signature="190:380" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,7 +151,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
               <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding />
+              <folding>
+                <marker date="1518501584391" expanded="true" signature="53:658" ph="{...}" />
+                <marker date="1518501584391" expanded="true" signature="102:656" ph="{...}" />
+                <marker date="1518501584391" expanded="true" signature="233:289" ph="{...}" />
+                <marker date="1518501584391" expanded="true" signature="325:410" ph="{...}" />
+                <marker date="1518501584391" expanded="true" signature="448:531" ph="{...}" />
+                <marker date="1518501584391" expanded="true" signature="566:650" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,19 +166,13 @@
       <file leaf-file-name="HelperBase.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/HelperBase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginHelper.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <marker date="1518501306551" expanded="true" signature="53:328" ph="{...}" />
+                <marker date="1518501306551" expanded="true" signature="83:326" ph="{...}" />
+                <marker date="1518501306551" expanded="true" signature="227:320" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,19 +180,28 @@
       <file leaf-file-name="ApplicationManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="63" lean-forward="false" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBase.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestProject1/Tests/TestBase.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="-112">
+              <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+              <folding>
+                <marker date="1518501658467" expanded="false" signature="6:109" ph="..." />
+                <marker date="1518501658467" expanded="true" signature="140:1945" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="178:1943" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="472:1011" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1045:1141" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1071:1131" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1169:1386" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1195:1254" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1284:1376" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1420:1520" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1446:1510" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1563:1661" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1589:1651" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1696:1796" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1722:1786" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1835:1937" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1861:1927" ph="{...}" />
+                <marker date="1518501658467" expanded="true" signature="1946:2194" ph="/* FirefoxOptions options = new FirefoxOptions(); ... */" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,17 +217,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TestProject1/Tests/AddContactTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject1/Tests/AddContactTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestProject1/Model/ContactData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestProject1/Tests/TestBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestProject1/Model/GroupData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/b6/2b6605a7/Reflect.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject1/Tests/ContactModificationTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestProject1/AppManager/NavigationHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject1/Tests/ContactRemovalTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestProject1/AppManager/HelperBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/f6/b9c71f4a/SetUpTearDownItem.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TestProject1/Tests/GroupModificationGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestProject1/AppManager/ContactHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/1b/198c5e84/SetUpTearDownCommand.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TestProject1/Tests/TestsGroupCreation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B71A4C06-9C3F-44EF-A132-D58B6B74EE64/1a/4d1a2b1a/RemoteWebDriver.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TestProject1/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestProject1/Model/AccountData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -181,6 +255,18 @@
         <option value="$PROJECT_DIR$/TestProject1/LoginHelper.cs" />
         <option value="$PROJECT_DIR$/TestProject1/NavigationHelper.cs" />
         <option value="$PROJECT_DIR$/TestProject1/TestBase.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/AppManager/HelperBase.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/Tests/TestBase.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/Tests/AddContactTests.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/AppManager/ContactHelper.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/AppManager/NavigationHelper.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/Tests/ContactModificationTests.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/Tests/ContactRemovalTests.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/Tests/GroupModificationGroup.cs" />
       </list>
     </option>
   </component>
@@ -190,9 +276,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="96" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -214,6 +300,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -230,6 +317,18 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="TestBookSharp (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="TestProject1" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="AppManager" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TestBookSharp (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TestProject1" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Model" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TestBookSharp (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TestProject1" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Tests" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
@@ -238,13 +337,12 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.CVS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../addressbook-web-tests/addressbook-web-tests.sln" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TestBookSharp.sln" />
     <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
     <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
     <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
@@ -297,7 +395,9 @@
       <option name="presentableId" value="Default" />
       <updated>1518333057404</updated>
       <workItem from="1518333091070" duration="14043000" />
-      <workItem from="1518406721593" duration="6820000" />
+      <workItem from="1518406721593" duration="9516000" />
+      <workItem from="1518499194993" duration="592000" />
+      <workItem from="1518499859317" duration="3061000" />
     </task>
     <task id="LOCAL-00001" summary="add new project c#">
       <created>1518360589184</created>
@@ -310,7 +410,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20863000" />
+    <option name="totallyTimeSpent" value="27212000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,23 +422,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3527559" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3023622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5506993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20278184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19180088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29936305" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73056996" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -361,28 +462,241 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TestProject1/Tests/TestsGroupCreation.cs</url>
-          <line>9</line>
-          <properties documentPath="$PROJECT_DIR$/TestProject1/Tests.cs" initialLine="30" />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="18" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Unit Tests">
+        <watch expression="driver" language="C#" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>driver</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/TestsGroupCreation.cs">
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518413354176" expanded="false" signature="6:139" ph="..." />
-            <marker date="1518413354176" expanded="true" signature="170:777" ph="{...}" />
-            <marker date="1518413354176" expanded="true" signature="237:775" ph="{...}" />
-            <marker date="1518413354176" expanded="true" signature="299:769" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="53:599" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="120:597" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="181:360" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="421:591" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <marker date="1518501523422" expanded="true" signature="53:2632" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="97:2630" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="174:194" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="246:476" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="537:804" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="847:1030" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1078:1179" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1239:1451" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1509:1659" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1709:1813" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1864:2005" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2047:2151" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2200:2312" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2366:2470" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2522:2624" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/AddContactTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <marker date="1518501443162" expanded="false" signature="6:109" ph="..." />
+            <marker date="1518501443162" expanded="true" signature="140:750" ph="{...}" />
+            <marker date="1518501443162" expanded="true" signature="204:748" ph="{...}" />
+            <marker date="1518501443162" expanded="true" signature="262:481" ph="{...}" />
+            <marker date="1518501443162" expanded="true" signature="539:742" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <marker date="1518501548936" expanded="true" signature="53:732" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="97:730" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="175:195" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="243:611" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="641:724" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/HelperBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1518501306551" expanded="true" signature="53:328" ph="{...}" />
+            <marker date="1518501306551" expanded="true" signature="83:326" ph="{...}" />
+            <marker date="1518501306551" expanded="true" signature="227:320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <marker date="1518501658467" expanded="false" signature="6:109" ph="..." />
+            <marker date="1518501658467" expanded="true" signature="140:1945" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="178:1943" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="472:1011" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1045:1141" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1071:1131" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1169:1386" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1195:1254" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1284:1376" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1420:1520" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1446:1510" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1563:1661" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1589:1651" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1696:1796" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1722:1786" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1835:1937" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1861:1927" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1946:2194" ph="/* FirefoxOptions options = new FirefoxOptions(); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518501584479" expanded="true" signature="53:599" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="120:597" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="181:360" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="421:591" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <marker date="1518501523422" expanded="true" signature="53:2632" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="97:2630" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="174:194" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="246:476" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="537:804" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="847:1030" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1078:1179" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1239:1451" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1509:1659" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1709:1813" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1864:2005" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2047:2151" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2200:2312" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2366:2470" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2522:2624" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/AddContactTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <marker date="1518501443162" expanded="false" signature="6:109" ph="..." />
+            <marker date="1518501443162" expanded="true" signature="140:750" ph="{...}" />
+            <marker date="1518501443162" expanded="true" signature="204:748" ph="{...}" />
+            <marker date="1518501443162" expanded="true" signature="262:481" ph="{...}" />
+            <marker date="1518501443162" expanded="true" signature="539:742" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <marker date="1518501548936" expanded="true" signature="53:732" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="97:730" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="175:195" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="243:611" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="641:724" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/HelperBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1518501306551" expanded="true" signature="53:328" ph="{...}" />
+            <marker date="1518501306551" expanded="true" signature="83:326" ph="{...}" />
+            <marker date="1518501306551" expanded="true" signature="227:320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <marker date="1518501658467" expanded="false" signature="6:109" ph="..." />
+            <marker date="1518501658467" expanded="true" signature="140:1945" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="178:1943" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="472:1011" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1045:1141" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1071:1131" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1169:1386" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1195:1254" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1284:1376" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1420:1520" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1446:1510" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1563:1661" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1589:1651" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1696:1796" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1722:1786" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1835:1937" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1861:1927" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1946:2194" ph="/* FirefoxOptions options = new FirefoxOptions(); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518501584479" expanded="true" signature="53:599" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="120:597" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="181:360" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="421:591" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -391,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -399,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -407,13 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1518359553337" expanded="true" signature="29:552" ph="{...}" />
-            <marker date="1518359553337" expanded="true" signature="60:550" ph="{...}" />
-            <marker date="1518359553337" expanded="true" signature="194:290" ph="{...}" />
-            <marker date="1518359553337" expanded="true" signature="322:417" ph="{...}" />
-            <marker date="1518359553337" expanded="true" signature="449:544" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -428,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -436,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="52" lean-forward="true" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -444,13 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1518359553337" expanded="true" signature="29:552" ph="{...}" />
-            <marker date="1518359553337" expanded="true" signature="60:550" ph="{...}" />
-            <marker date="1518359553337" expanded="true" signature="194:290" ph="{...}" />
-            <marker date="1518359553337" expanded="true" signature="322:417" ph="{...}" />
-            <marker date="1518359553337" expanded="true" signature="449:544" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -458,61 +754,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518408141565" expanded="true" signature="31:562" ph="{...}" />
-            <marker date="1518408141565" expanded="true" signature="62:560" ph="{...}" />
-            <marker date="1518408141565" expanded="true" signature="198:296" ph="{...}" />
-            <marker date="1518408141565" expanded="true" signature="330:427" ph="{...}" />
-            <marker date="1518408141565" expanded="true" signature="459:554" ph="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/f6/b9c71f4a/SetUpTearDownItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/1b/198c5e84/SetUpTearDownCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/b6/2b6605a7/Reflect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="143" column="6" lean-forward="false" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBookSharp.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestProject1/Model/GroupData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="-22">
           <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
+          <folding>
+            <marker date="1518364617248" expanded="true" signature="29:817" ph="{...}" />
+            <marker date="1518364617248" expanded="true" signature="58:815" ph="{...}" />
+            <marker date="1518364617248" expanded="true" signature="213:263" ph="{...}" />
+            <marker date="1518364617248" expanded="true" signature="332:451" ph="{...}" />
+            <marker date="1518364617248" expanded="true" signature="480:567" ph="{...}" />
+            <marker date="1518364617248" expanded="true" signature="597:688" ph="{...}" />
+            <marker date="1518364617248" expanded="true" signature="718:809" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/AddContactTest.cs">
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/TestBase.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="408">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <marker date="1518501368606" expanded="false" signature="6:109" ph="..." />
+            <marker date="1518501368606" expanded="true" signature="140:544" ph="{...}" />
+            <marker date="1518501368606" expanded="true" signature="168:542" ph="{...}" />
+            <marker date="1518501368606" expanded="true" signature="265:437" ph="{...}" />
+            <marker date="1518501368606" expanded="true" signature="492:536" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/ContactHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/HelperBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="313">
+          <caret line="97" column="1" lean-forward="false" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+          <folding>
+            <marker date="1518501503044" expanded="true" signature="53:2608" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="96:2606" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="175:195" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="263:454" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="520:750" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="794:975" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="1023:1132" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="1198:1446" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="1506:1656" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="1705:1811" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="1866:2010" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="2064:2197" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="2255:2377" ph="{...}" />
+            <marker date="1518501503044" expanded="true" signature="2423:2600" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="313">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <marker date="1518501548936" expanded="true" signature="53:732" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="97:730" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="175:195" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="243:611" ph="{...}" />
+            <marker date="1518501548936" expanded="true" signature="641:724" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -520,35 +857,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1518501584391" expanded="true" signature="53:658" ph="{...}" />
+            <marker date="1518501584391" expanded="true" signature="102:656" ph="{...}" />
+            <marker date="1518501584391" expanded="true" signature="233:289" ph="{...}" />
+            <marker date="1518501584391" expanded="true" signature="325:410" ph="{...}" />
+            <marker date="1518501584391" expanded="true" signature="448:531" ph="{...}" />
+            <marker date="1518501584391" expanded="true" signature="566:650" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/TestBase.cs">
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="-95">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1518501584479" expanded="true" signature="53:599" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="120:597" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="181:360" ph="{...}" />
+            <marker date="1518501584479" expanded="true" signature="421:591" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/HelperBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <marker date="1518501306551" expanded="true" signature="53:328" ph="{...}" />
+            <marker date="1518501306551" expanded="true" signature="83:326" ph="{...}" />
+            <marker date="1518501306551" expanded="true" signature="227:320" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="63" lean-forward="false" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="-112">
+          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <marker date="1518501658467" expanded="false" signature="6:109" ph="..." />
+            <marker date="1518501658467" expanded="true" signature="140:1945" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="178:1943" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="472:1011" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1045:1141" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1071:1131" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1169:1386" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1195:1254" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1284:1376" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1420:1520" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1446:1510" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1563:1661" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1589:1651" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1696:1796" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1722:1786" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1835:1937" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1861:1927" ph="{...}" />
+            <marker date="1518501658467" expanded="true" signature="1946:2194" ph="/* FirefoxOptions options = new FirefoxOptions(); ... */" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/TestsGroupCreation.cs">
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/AddContactTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="119">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <marker date="1518413354176" expanded="false" signature="6:139" ph="..." />
-            <marker date="1518413354176" expanded="true" signature="170:777" ph="{...}" />
-            <marker date="1518413354176" expanded="true" signature="237:775" ph="{...}" />
-            <marker date="1518413354176" expanded="true" signature="299:769" ph="{...}" />
+            <marker date="1518501443162" expanded="false" signature="6:109" ph="..." />
+            <marker date="1518501443162" expanded="true" signature="140:750" ph="{...}" />
+            <marker date="1518501443162" expanded="true" signature="204:748" ph="{...}" />
+            <marker date="1518501443162" expanded="true" signature="262:481" ph="{...}" />
+            <marker date="1518501443162" expanded="true" signature="539:742" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/ContactModificationTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1518502063241" expanded="true" signature="53:411" ph="{...}" />
+            <marker date="1518502063241" expanded="true" signature="126:409" ph="{...}" />
+            <marker date="1518502063241" expanded="true" signature="193:403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/ContactRemovalTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <marker date="1518502099231" expanded="true" signature="53:230" ph="{...}" />
+            <marker date="1518502099231" expanded="true" signature="103:228" ph="{...}" />
+            <marker date="1518502099231" expanded="true" signature="166:222" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests/GroupModificationGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1518502146064" expanded="true" signature="53:388" ph="{...}" />
+            <marker date="1518502146064" expanded="true" signature="125:386" ph="{...}" />
+            <marker date="1518502146064" expanded="true" signature="190:380" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="1" lean-forward="false" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+          <folding>
+            <marker date="1518501523422" expanded="true" signature="53:2632" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="97:2630" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="174:194" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="246:476" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="537:804" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="847:1030" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1078:1179" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1239:1451" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1509:1659" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1709:1813" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="1864:2005" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2047:2151" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2200:2312" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2366:2470" ph="{...}" />
+            <marker date="1518501523422" expanded="true" signature="2522:2624" ph="{...}" />
           </folding>
         </state>
       </provider>

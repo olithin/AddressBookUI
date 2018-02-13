@@ -26,9 +26,12 @@
         </e>
         <e p="TestProject1.csproj" t="IncludeRecursive" />
         <e p="Tests" t="Include">
-          <e p="AddContactTest.cs" t="Include" />
+          <e p="AddContactTests.cs" t="Include" />
+          <e p="ContactModificationTests.cs" t="Include" />
+          <e p="ContactRemovalTests.cs" t="Include" />
+          <e p="GroupCreationTests.cs" t="Include" />
+          <e p="GroupModificationGroup.cs" t="Include" />
           <e p="TestBase.cs" t="Include" />
-          <e p="TestsGroupCreation.cs" t="Include" />
         </e>
       </e>
     </e>

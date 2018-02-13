@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
@@ -17,10 +18,25 @@ namespace AddressbookWebTests
 
         public ApplicationManager()
         {
-            loginHelper = new LoginHelper(driver);
-            navigator = new NavigationHelper(driver, baseURL);
-            groupHelper = new GroupHelper(driver);
-            contactHelper = new ContactHelper(driver);
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = @"c:\Program Files\Mozilla Firefox\firefox.exe";
+            options.UseLegacyImplementation = true;
+            driver = new FirefoxDriver(options);
+            baseURL = "http://localhost:5555/";
+
+            loginHelper = new LoginHelper(this);
+            navigator = new NavigationHelper(this, baseURL);
+            groupHelper = new GroupHelper (this);
+            contactHelper = new ContactHelper(this);
+        }
+
+        public IWebDriver Driver
+        {
+            get
+            {
+                return driver;
+
+            }
         }
 
         public void Stop()
@@ -34,6 +50,7 @@ namespace AddressbookWebTests
                 // Ignore errors if unable to close the browser
             }
         }
+
 
         public LoginHelper Auth
         {
@@ -66,16 +83,10 @@ namespace AddressbookWebTests
                 return contactHelper;
             }
         }
-
-
-        [SetUp]
-        public void SetupTest()
-        {
-            FirefoxOptions options = new FirefoxOptions();
-            options.BrowserExecutableLocation = @"c:\Program Files\Mozilla Firefox\firefox.exe";
-            options.UseLegacyImplementation = true;
-            driver = new FirefoxDriver(options);
-            baseURL = "http://localhost/";
-        }
     }
 }
+/*FirefoxOptions options = new FirefoxOptions();
+options.BrowserExecutableLocation = @"c:\Program Files\Mozilla Firefox\firefox.exe";
+options.UseLegacyImplementation = true;
+driver = new FirefoxDriver(options);
+baseURL = "http://localhost:5555/";*/
