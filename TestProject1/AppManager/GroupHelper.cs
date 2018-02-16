@@ -1,10 +1,11 @@
-﻿using OpenQA.Selenium;
+﻿using System.Collections.Generic;
+using OpenQA.Selenium;
 
 namespace AddressbookWebTests
 {
     public class GroupHelper : HelperBase
     {
-        public GroupHelper(ApplicationManager manager) : base(manager)
+    public GroupHelper(ApplicationManager manager) : base(manager)
         {
         }
 
@@ -22,14 +23,15 @@ namespace AddressbookWebTests
         public GroupHelper Modify(int p, GroupData newData)
         {
             manager.Navigator.GoToGroupsPage();
+
             SelectGroup(p);
             InitGroupModification();
             FillGroupForm(newData);
             SubmitGroupModification();
             ReturnToGroupsPage();
             return this;
-        }
 
+        }
 
         public GroupHelper Remove(int p)
         {
@@ -56,12 +58,6 @@ namespace AddressbookWebTests
             return this;
         }
 
-        public GroupHelper Type(By locator, string text)
-        {
-            driver.FindElement(locator).Clear();
-            driver.FindElement(locator).SendKeys(text);
-            return this;
-        }
 
         public GroupHelper SubmitGroupCreation()
         {
@@ -71,7 +67,7 @@ namespace AddressbookWebTests
 
         public GroupHelper SelectGroup(int index)
         {
-            driver.FindElement(By.XPath("(//input[@name='selected[]'])[" +index+ "]")).Click();
+            driver.FindElement(By.XPath("(//input[@name='selected[]'])[" + index + "]")).Click();
             return this;
         }
 
@@ -98,5 +94,39 @@ namespace AddressbookWebTests
             driver.FindElement(By.Name("edit")).Click();
             return this;
         }
+
+        public void GroupCreated()
+        {
+            if (IsGroupCreated())
+            {
+                return;
+            }
+
+            GroupData group = new GroupData("aaa");
+            group.Header = "ddd";
+            group.Footer = "fff";
+
+            Create(group);
+        }
+
+        public bool IsGroupCreated()
+        {
+            return IsElementPresent(By.CssSelector("span.group"));
+        }
+        
+        public List<GroupData> GetGroupList()
+        {
+            List<GroupData> groups = new List<GroupData>();
+
+            manager.Navigator.GoToGroupsPage();
+            ICollection<IWebElement> elements = driver.FindElements(By.CssSelector("span.group"));
+            foreach (IWebElement element in elements)
+            {
+                groups.Add(new GroupData(element.Text));
+            }
+            return groups;
+
+        }
+
     }
 }

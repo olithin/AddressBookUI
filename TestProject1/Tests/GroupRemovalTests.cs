@@ -4,10 +4,12 @@ namespace AddressbookWebTests
 {
     [TestFixture]
 
-    public class GroupModificationTests : AuthTestBase
+    public class GroupRemovalTests : AuthTestBase
     {
+
         [Test]
-        public void GroupModificationTest()
+
+        public void GroupRemovalTest()
         {
             app.Navigator.GoToGroupsPage();
 
@@ -19,14 +21,9 @@ namespace AddressbookWebTests
 
 
                 app.Groups.Create(group);
-
             }
 
-            GroupData newData = new GroupData("leo");
-            newData.Header = "new";
-            newData.Footer = "long";
-
-            app.Groups.Modify(1, newData);
+            app.Groups.Remove(1);
         }
     }
 }

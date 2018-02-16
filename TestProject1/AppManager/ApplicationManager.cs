@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Text;
-using NUnit.Framework;
+using System.Threading;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 
@@ -15,8 +14,10 @@ namespace AddressbookWebTests
         protected NavigationHelper navigator;
         protected GroupHelper groupHelper;
         protected ContactHelper contactHelper;
+        
+        private static ThreadLocal<ApplicationManager> app = new ThreadLocal<ApplicationManager>();
 
-        public ApplicationManager()
+        private ApplicationManager()
         {
             FirefoxOptions options = new FirefoxOptions();
             options.BrowserExecutableLocation = @"c:\Program Files\Mozilla Firefox\firefox.exe";
@@ -29,17 +30,8 @@ namespace AddressbookWebTests
             groupHelper = new GroupHelper (this);
             contactHelper = new ContactHelper(this);
         }
-
-        public IWebDriver Driver
-        {
-            get
-            {
-                return driver;
-
-            }
-        }
-
-        public void Stop()
+        
+        ~ApplicationManager()
         {
             try
             {
@@ -48,6 +40,27 @@ namespace AddressbookWebTests
             catch (Exception)
             {
                 // Ignore errors if unable to close the browser
+            }
+        }
+
+        public static ApplicationManager GetInstance()
+        {
+            if (! app.IsValueCreated)
+            {
+                ApplicationManager newInstance = new ApplicationManager();
+                newInstance.Navigator.OpenHomePage();
+                app.Value = newInstance;
+            }
+            return app.Value;
+        }
+            
+
+        public IWebDriver Driver
+        {
+            get
+            {
+                return driver;
+
             }
         }
 
@@ -83,6 +96,8 @@ namespace AddressbookWebTests
                 return contactHelper;
             }
         }
+        
+        
     }
 }
 /*FirefoxOptions options = new FirefoxOptions();

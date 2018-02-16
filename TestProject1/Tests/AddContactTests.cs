@@ -7,8 +7,9 @@ using OpenQA.Selenium.Firefox;
 namespace AddressbookWebTests
 {
     [TestFixture]
-    public class AddContactTests : TestBase
+    public class AddContactTests : AuthTestBase
     {
+
         [Test]
         public void AddContactTest()
         {
