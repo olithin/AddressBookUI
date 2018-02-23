@@ -9,3 +9,10 @@ C:\Reposit\C_Sharp\TestBookSharp\TestProject1\bin\Debug\AddressBookWeb.dll
 C:\Reposit\C_Sharp\TestBookSharp\TestProject1\bin\Debug\AddressBookWeb.pdb
 C:\Reposit\C_Sharp\TestBookSharp\TestProject1\obj\Debug\AddressBookWeb.dll
 C:\Reposit\C_Sharp\TestBookSharp\TestProject1\obj\Debug\AddressBookWeb.pdb
+C:\Reposit\C_Sharp\TestBookSharp\TestProject1\bin\Debug\groups.csv
+C:\Reposit\C_Sharp\TestBookSharp\TestProject1\bin\Debug\AddressBookWeb.dll.config
+C:\Reposit\C_Sharp\TestBookSharp\TestProject1\bin\Debug\linq2db.dll
+C:\Reposit\C_Sharp\TestBookSharp\TestProject1\bin\Debug\MySql.Data.dll
+C:\Reposit\C_Sharp\TestBookSharp\TestProject1\bin\Debug\linq2db.pdb
+C:\Reposit\C_Sharp\TestBookSharp\TestProject1\bin\Debug\linq2db.xml
+C:\Reposit\C_Sharp\TestBookSharp\TestProject1\bin\Debug\MySql.Data.xml

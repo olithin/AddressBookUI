@@ -1,42 +1,58 @@
-﻿namespace AddressbookWebTests
+﻿using System;
+using LinqToDB.Mapping;
+
+namespace AddressbookWebTests
 {
-    public class GroupData
+    [Table(Name = "group_list")]
+    public class GroupData : IEquatable<GroupData>, IComparable<GroupData>
     {
-        private string name;
-        private string header = "";
-        private string footer = "";
+        public GroupData()
+        {
+        }
         
-
-        public GroupData(string name)
+        public GroupData (string name)
         {
-            this.name = name;
+            Name = name;
+        }
+        
+        [Column(Name = "group_name")]
+        public string Name { get; set; }
+        
+        [Column(Name = "group_header")]
+        public string Header { get; set; }
+        
+        [Column(Name = "group_footer")]
+        public string Footer { get; set; }
+        
+        [Column(Name = "group_footer"),PrimaryKey,Identity]   
+        public string Id { get; set; }
+
+        public bool Equals(GroupData other)
+        {
+            if (Object.ReferenceEquals(other, null))
+            {
+                return false;
+            }
+            if (Object.ReferenceEquals(this, other))
+            {
+                return true;
+            }
+            return Name == other.Name;
         }
 
-        public GroupData(string name, string header, string footer)
+        public override int GetHashCode()
         {
-            this.name = name;
-            this.header = header;
-            this.footer = footer;
-
+            return Name.GetHashCode();
         }
 
-
-        public string Name
+        public override string ToString()
         {
-            get { return name; }
-            set { name = value; }
+            return "name=" + Name +"\nheader" +Header + "\nfooter" +Footer;
         }
 
-        public string Header
+        public int CompareTo(GroupData other)
         {
-            get { return header; }
-            set { header = value; }
-        }
-
-        public string Footer
-        {
-            get { return footer; }
-            set { footer = value; }
+            return ReferenceEquals(other, null) ? 1 : Name.CompareTo(other.Name);
         }
     }
 }

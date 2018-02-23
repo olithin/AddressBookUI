@@ -11,18 +11,19 @@ namespace AddressbookWebTests
             this.baseURL = baseURL;
         }
 
-        public void OpenHomePage()
+        public void GoToHomePage()
         {
-            if (driver.Url == baseURL + "/addressbook/")
+            if (driver.Url == "addressbook/" && IsElementPresent(By.Name("add")))
             {
                 return;
             }
             driver.Navigate().GoToUrl(baseURL + "addressbook/");
         }
 
+
         public void GoToGroupsPage()
         {
-            if (driver.Url == baseURL + "/addressbook/group.php"
+            if (driver.Url == baseURL + "addressbook/group.php"
                 && IsElementPresent(By.Name("new")))
             {
                 return;

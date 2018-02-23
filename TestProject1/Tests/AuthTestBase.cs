@@ -2,6 +2,7 @@
 
 namespace AddressbookWebTests
 {
+    [TestFixture]
     public class AuthTestBase : TestBase
     {
         [SetUp]
