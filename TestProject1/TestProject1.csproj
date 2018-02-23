@@ -121,6 +121,7 @@
     <None Include="packages.config" />
   </ItemGroup>
     <ItemGroup>
+        <Content Include=".gitignore"/>
         <Content Include="groups.csv">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>

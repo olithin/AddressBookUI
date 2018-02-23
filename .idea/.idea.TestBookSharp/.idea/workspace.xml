@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79ae3cd5-1870-4ce0-ba82-01d6c0900689" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Model/AddressBookDB.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Tests/ContactInformationTests.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Tests/SearchTest.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/Tests/TestToDB.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/groups.csv" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/.idea/contentModel.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TestProject1/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.TestBookSharp/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TestBookSharp.sln" afterPath="$PROJECT_DIR$/TestBookSharp.sln" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs" afterPath="$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/AppManager/ContactHelper.cs" afterPath="$PROJECT_DIR$/TestProject1/AppManager/ContactHelper.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs" afterPath="$PROJECT_DIR$/TestProject1/AppManager/GroupHelper.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs" afterPath="$PROJECT_DIR$/TestProject1/AppManager/LoginHelper.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/AppManager/NavigationHelper.cs" afterPath="$PROJECT_DIR$/TestProject1/AppManager/NavigationHelper.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/Model/ContactData.cs" afterPath="$PROJECT_DIR$/TestProject1/Model/ContactData.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/Model/GroupData.cs" afterPath="$PROJECT_DIR$/TestProject1/Model/GroupData.cs" />
       <change beforePath="$PROJECT_DIR$/TestProject1/TestProject1.csproj" afterPath="$PROJECT_DIR$/TestProject1/TestProject1.csproj" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/AddContactTests.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/AddContactTests.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/AuthTestBase.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/AuthTestBase.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/ContactModificationTests.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/ContactModificationTests.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/ContactRemovalTests.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/ContactRemovalTests.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/GroupModificationGroup.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/GroupModificationGroup.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/GroupRemovalTests.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/GroupRemovalTests.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/LoginTests.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/LoginTests.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/Tests/TestBase.cs" afterPath="$PROJECT_DIR$/TestProject1/Tests/TestBase.cs" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/AddressBookWeb.dll" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/AddressBookWeb.dll" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/AddressBookWeb.pdb" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/AddressBookWeb.pdb" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/AddressBookWeb.dll" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/AddressBookWeb.dll" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/AddressBookWeb.pdb" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/AddressBookWeb.pdb" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/TestProject1.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/TestProject1.csproj.FileListAbsolute.txt" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/TestProject1.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/TestProject1.csprojResolveAssemblyReference.cache" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/packages.config" afterPath="$PROJECT_DIR$/TestProject1/packages.config" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -109,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestToDB.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestToDB.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestProject1/Tests/TestToDB.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
@@ -122,6 +93,16 @@
                 <marker date="1519369900620" expanded="true" signature="1004:1581" ph="{...}" />
                 <marker date="1519369900620" expanded="true" signature="1374:1476" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestProject1/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="321" column="5" lean-forward="false" selection-start-line="321" selection-start-column="5" selection-end-line="321" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -232,6 +213,7 @@
         <option value="$PROJECT_DIR$/TestProject1/app.config" />
         <option value="$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs" />
         <option value="$PROJECT_DIR$/TestProject1/Tests/TestToDB.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/.gitignore" />
       </list>
     </option>
   </component>
@@ -275,12 +257,6 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="TestBookSharp (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="TestProject1" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="TestBookSharp (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="TestProject1" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="AppManager" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -354,7 +330,7 @@
       <workItem from="1518841939638" duration="12066000" />
       <workItem from="1519017685108" duration="12161000" />
       <workItem from="1519277940657" duration="12022000" />
-      <workItem from="1519361596028" duration="7592000" />
+      <workItem from="1519361596028" duration="8020000" />
     </task>
     <task id="LOCAL-00001" summary="add new project c#">
       <created>1518360589184</created>
@@ -377,11 +353,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518758971023</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="connection with DB">
+      <created>1519369943329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519369943329</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86485000" />
+    <option name="totallyTimeSpent" value="86913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,16 +377,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.16013072" sideWeight="0.50292826" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2859477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17320262" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43954247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23298033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23298033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -429,7 +413,8 @@
     <MESSAGE value="add new project c#" />
     <MESSAGE value="add Removal and Modification Tests" />
     <MESSAGE value="counting existing groups and contacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="counting existing groups and contacts" />
+    <MESSAGE value="connection with DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="connection with DB" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -630,35 +615,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestProject1/AppManager/ApplicationManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <marker date="1519110736442" expanded="false" signature="6:91" ph="..." />
-            <marker date="1519110736442" expanded="true" signature="122:2421" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="160:2419" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="564:1103" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="1142:1359" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="1168:1227" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="1257:1349" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="1415:1701" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="1463:1661" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="1748:1844" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="1774:1834" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="1878:1978" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="1904:1968" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="2021:2119" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="2047:2109" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="2154:2254" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="2180:2244" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="2293:2395" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="2319:2385" ph="{...}" />
-            <marker date="1519110736442" expanded="true" signature="2422:2670" ph="/* FirefoxOptions options = new FirefoxOptions(); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestProject1/Tests/GroupCreationTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -888,6 +844,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,6 +1208,14 @@
             <marker date="1519369900620" expanded="true" signature="1004:1581" ph="{...}" />
             <marker date="1519369900620" expanded="true" signature="1374:1476" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="321" column="5" lean-forward="false" selection-start-line="321" selection-start-column="5" selection-end-line="321" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

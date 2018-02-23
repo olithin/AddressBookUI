@@ -14,6 +14,7 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="TestBookSharp.sln" t="IncludeFlat" />
       <e p="TestProject1" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
         <e p="app.config" t="Include" />
         <e p="AppManager" t="Include">
           <e p="ApplicationManager.cs" t="Include" />
